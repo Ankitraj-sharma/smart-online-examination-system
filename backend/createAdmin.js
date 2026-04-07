@@ -62,7 +62,7 @@ async function createAdmin() {
     console.log("   Password:", ADMIN_PASSWORD);
     console.log("   Role    :", admin.role);
     console.log("─────────────────────────────────────");
-    console.log("👉 Go to http://localhost:3000/login");
+    console.log("👉 Open your frontend app and visit /login");
     console.log("👉 Click the Admin tab");
     console.log("👉 Login with above credentials");
 

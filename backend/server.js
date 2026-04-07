@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 
-// ── CORS — allows any localhost port (3000, 3001, 3002, 3003…) ──
+// ── CORS — allows browser origins during development and production ──
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin) return callback(null, true);
@@ -59,7 +59,7 @@ mongoose
     console.log("✅ MongoDB connected successfully");
     const PORT = process.env.PORT || 5000;
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`🚀 Server running on port ${PORT}`);
     });
   })
   .catch((err) => {
