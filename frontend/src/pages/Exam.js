@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://smart-online-examination-system.onrender.com/api";
 
 export default function Exam() {
   const navigate = useNavigate();

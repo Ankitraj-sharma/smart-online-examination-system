@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const API = "http://localhost:5000/api";
+const API = "https://smart-online-examination-system.onrender.com/api";
 
 // ── Must match Home.js EXAM_CATALOG exactly ──────────────────────
 const EXAM_CATALOG = [
