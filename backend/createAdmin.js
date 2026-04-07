@@ -12,8 +12,8 @@ dotenv.config();
 
 // ── Change these to whatever you want ──
 const ADMIN_NAME     = "Admin User";
-const ADMIN_EMAIL    = "admin@exam.com";
-const ADMIN_PASSWORD = "admin123";
+const ADMIN_EMAIL    = "admin123@exam.com";
+const ADMIN_PASSWORD = "79033@ankit";
 // ────────────────────────────────────────
 
 const userSchema = new mongoose.Schema({
