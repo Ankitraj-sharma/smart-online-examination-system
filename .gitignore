@@ -1,3 +1,4 @@
+
 # Dependencies
 node_modules/
 
@@ -37,3 +38,8 @@ frontend/build/
 
 # Backend specific
 backend/node_modules/
+
+node_modules/
+backend/node_modules/
+.env
+backend/.env
