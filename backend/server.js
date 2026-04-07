@@ -11,11 +11,18 @@ dotenv.config();
 
 const app = express();
 
-// ── CORS — allows browser origins during development and production ──
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:3001",
+  "https://smart-online-examination-system.vercel.app",
+  "https://smart-online-examination-system.onrender.com",
+];
+
+// ── CORS — allows the local dev frontend and the deployed frontend origin ──
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin) return callback(null, true);
-    if (origin.startsWith("http://localhost")) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
     callback(new Error("Not allowed by CORS"));
   },
   credentials: true,
