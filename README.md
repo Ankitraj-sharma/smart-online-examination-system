@@ -1,3 +1,4 @@
+
 🎓 Smart Online Examination System 🚀
 
 🌐 Live Demo: https://smart-online-examination-system.vercel.app/login
@@ -26,7 +27,9 @@ It provides a real-time exam environment, helping students practice and attempt 
 
 🖥️ Screenshots
 
-📸 (Add your project screenshots here)
+📸<img width="1919" height="908" alt="Screenshot 2026-04-17 003345" src="https://github.com/user-attachments/assets/5c42f465-4c9d-4e93-b345-32f11f1bc271" />
+<img width="1918" height="909" alt="Screenshot 2026-04-17 003205" src="https://github.com/user-attachments/assets/ca1e7a83-8749-4e0d-abca-6651648cdcf7" />
+<img width="1919" height="1012" alt="Screenshot 2026-04-15 092558" src="https://github.com/user-attachments/assets/bd7af16f-64f0-4c1e-83e1-6a24682ed77a" />
 
 🛠️ Tech Stack
 
